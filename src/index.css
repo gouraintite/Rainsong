@@ -38,3 +38,10 @@ html{
 		transform: translatey(0px);
 	}
 }
+
+@media screen and (max-width: 768px) {
+  html{
+    margin: 0 2rem;
+  }
+}
+  
