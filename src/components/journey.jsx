@@ -13,7 +13,7 @@ const Journey = () => {
     <>
         <section className='lg:-mt-24 mt-24 overflow-hidden'>
             <h1 className='lg:text-8xl text-3xl font-bold' >Journey
-                <div class="absolute z-0 bg-gradient-to-tr from-primary/25 to-dark/10 lg:w-[1120px] w-[400px] h-[400px] blur-3xl -mt-40">
+                <div class="absolute z-0 bg-gradient-to-tr from-primary/25 to-dark/10 lg:w-[1120px] w-[200px] h-[400px] blur-3xl -mt-40">
                 </div>
             </h1>
             <p className='font-bold text-primary text-[1.3rem]'> Challenging but worth it!</p>

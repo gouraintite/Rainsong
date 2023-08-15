@@ -18,11 +18,11 @@ const Welcome = () => {
                         <p className='lg:text-2xl text-3xl font-bold'>
                             Hey, ✌🏽 I am...️    
                         </p><br />
-                        <p className='lg:text-[9.2rem] text-[5rem] ml-4 lg:-mt-16 font-extrabold'>
+                        <p className='lg:text-[9.2rem] sm:text-[2rem] text-[4.2rem] ml-4 lg:-mt-16 font-extrabold'>
                             Rainsong
                         </p><br />
-                        <p className='lg:text-2xl text-3xl lg:-mt-12 mt-2 mb-12'>
-                            I mean, Rainsong NGOUTSOP.
+                        <p className='lg:text-2xl text-xl lg:font-normal font-bold lg:-mt-12 mt-2 mb-12'>
+                            {'{{'} I mean, Rainsong NGOUTSOP.{'}}'}
                         </p>
                         <p className='lg:text-2xl text-xl lg:mt-4 mt-24 lg:leading-normal leading-relaxed w-full'>
                             Laughing in the Face of Browser <br /> Compatibility – The {' '}
@@ -32,7 +32,7 @@ const Welcome = () => {
                     </div>
                 </div>
                 <div className='lg:w-1/2 w-2/3 flex justify-center z-0 lg:relative  absolute'>
-                    <div className='ml-4 w-full shadow-2xl shadow-primary rounded-full overflow-hidden lg:border-[15px] border-[5px] border-primary '>
+                    <div className='lg:ml-4 w-full shadow-2xl shadow-primary rounded-full overflow-hidden lg:border-[15px] border-[5px] border-primary '>
                         <img src={me} alt="my picture" className='w-full shadow-xl' />
                     </div>
                     <div className='lg:absolute hidden bottom-9 rounded-l-3xl -right-0 shadow-2xl shadow-slate-700 border-l-2 border-y-2 border-primary overflow-hidden lg:w-46 w-16 h-20 lg:h-52 object-cover'>
