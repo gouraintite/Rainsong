@@ -11,8 +11,8 @@ import acesy from '../assets/acesy.png'
 const Journey = () => {
   return (
     <>
-        <section className='lg:-mt-24 mt-24 overflow-hidden'>
-            <h1 className='lg:text-8xl text-3xl font-bold' >Journey
+        <section className='lg:-mt-24 mt-24 overflow-hidden xl:text-4xl'>
+            <h1 className='lg:text-8xl text-3xl font-bold xl:text-9xl' >Journey
                 <div class="absolute z-0 bg-gradient-to-tr from-primary/25 to-dark/10 lg:w-[1120px] w-[200px] h-[400px] blur-3xl -mt-40">
                 </div>
             </h1>
@@ -25,7 +25,7 @@ const Journey = () => {
                             className='w-[75px] h-[100px]'
                             alt="" 
                         />
-                        <div className='flex ml-3 h-auto items-center text-2xl font-black'>
+                        <div className='flex ml-3 h-auto items-center text-2xl font-black xl:text-4xl '>
                             University of <br />Yaounde 1
                         </div>
                     </div>
@@ -73,36 +73,37 @@ const Journey = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex flex-wrap justify-between mt-16' >
+                <div className='flex flex-wrap justify-between mt-16'>
                     <div className='lg:w-1/2 w-full text-center font-semibold text-xl'>
-                        <div className='flex my-2 '>
+                        <div className='flex my-2 xl:my-6'>
                             <img src={location} alt="" className='h-6' />
-                            <div className='ml-3'>
+                            <div className='ml-3 xl:text-3xl'>
                                 Yaoundé, Cameroon
                             </div>
                         </div>
-                        <div className='flex my-2 '>
+                        <div className='flex my-2 xl:my-6'>
                             <img src={note2} alt="" className='h-6' />
-                            <div className='ml-3'>
+                            <div className='ml-3 xl:text-3xl'>
                                 05 Years
                             </div>
                         </div>
-                        <div className='flex my-2 '>
+                        <div className='flex my-2 xl:my-6'>
                             <img src={watch} alt="" className='h-6' />
-                            <div className='ml-3'>
-                                Yaoundé, Cameroon
+                            <div className='ml-3 xl:text-3xl'>
+                            Master Computer Science
                             </div>
                         </div>
                         <div className='flex bg-primary/20 backdrop-blur-2xl w-fit lg:mt-20 mb-6 p-3 rounded-xl cursor-pointer transition-all hover:scale-95 duration-200 ease-in-out'>
                             <img src={tour} alt="" className='h-6' />
-                            <div className='ml-3'>
+                            <div className='ml-3 xl:text-3xl'>
                                 Take tour
                             </div>
                         </div>
                     </div>
-                    <div className='lg:w-1/2 lg:text-xl xl:text-3xl pb-6 text-justify '>
-                    The Software Enginee Master's program at the University of Yaounde I in Cameroon is a great option for students who want to pursue a career in software enginee. The program is well-respected and offers a rigorous curriculum that covers all aspects of software enginee, from design and development to testing and deployment.
-                    Concerning me it continue to be a great experience full all nkowledge and discovery</div>
+                    <div className='lg:w-1/2 lg:text-xl xl:text-3xl pb-6 text-justify xl:pl-9'>
+                        The Software Enginee Master's program at the University of Yaounde I in Cameroon is a great option for students who want to pursue a career in software enginee. The program is well-respected and offers a rigorous curriculum that covers all aspects of software enginee, from design and development to testing and deployment.
+                        Concerning me it continue to be a great experience full all nkowledge and discovery
+                    </div>
                 </div>
             </div>
         </section>

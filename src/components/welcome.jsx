@@ -10,7 +10,7 @@ const Welcome = () => {
     <>
         <div className='pt-2 h-fit'>
             <div className='cursor-pointer' >
-                <img src={logo} alt="logo rainsong" className='xl:w-12' />
+                <img src={logo} alt="logo rainsong" className='' />
             </div>
             <div className='flex lg:flex-row flex-row-reverse justify-between h-auto lg:h-100 mt-6'>
                 <div className='lg:mt-36 mt-4 lg:w-2/5 w-full h-full z-50'>
@@ -31,11 +31,11 @@ const Welcome = () => {
                         </p>
                     </div>
                 </div>
-                <div className='lg:w-1/2 w-2/3 flex justify-center z-0 lg:relative'>
+                <div className='lg:w-1/2 w-2/3 flex justify-center z-0 lg:relative  absolute'>
                     <div className='lg:ml-4 w-full shadow-2xl shadow-primary rounded-full overflow-hidden lg:border-[15px] border-[5px] border-primary '>
                         <img src={me} alt="my picture" className='w-full shadow-xl' />
                     </div>
-                    <div className='absolute xl:bottom-[32rem]  bottom-72 rounded-l-3xl -right-44 shadow-2xl shadow-slate-700 border-l-2 border-y-2 border-primary overflow-hidden  xl:w-92 xl:h-52  w-46 h-52 object-cover ring'>
+                    <div className='lg:absolute lg:block hidden xl:bottom-[32rem]  bottom-72 rounded-l-3xl -right-44 shadow-2xl shadow-slate-700 border-l-2 border-y-2 border-primary overflow-hidden  xl:w-92 xl:h-52  w-46 h-52 object-cover ring'>
                             <img src={a1} alt="" className='object-cover' />
                             <div className='bg-primary text-xl flex justify-center items-center h-1/5 w-1/3 absolute bottom-0 rounded-tr-xl' >
                                 avendre
