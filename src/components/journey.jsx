@@ -100,7 +100,7 @@ const Journey = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='lg:w-1/2 lg:text-xl pb-6 text-justify '>
+                    <div className='lg:w-1/2 lg:text-xl xl:text-3xl pb-6 text-justify '>
                     The Software Enginee Master's program at the University of Yaounde I in Cameroon is a great option for students who want to pursue a career in software enginee. The program is well-respected and offers a rigorous curriculum that covers all aspects of software enginee, from design and development to testing and deployment.
                     Concerning me it continue to be a great experience full all nkowledge and discovery</div>
                 </div>
