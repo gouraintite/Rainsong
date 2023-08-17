@@ -1,5 +1,7 @@
 import Journey from "./components/journey"
 import Welcome from "./components/welcome"
+import Skils from "./components/skills"
+import Archievments from "./components/archievements"
 
 export default function App() {
   return (
@@ -10,6 +12,14 @@ export default function App() {
           
         </div>
         <Journey />
+        <div className="lg:mt-48 mt-0" >
+          
+        </div>
+        <Skils />
+        <div className="lg:mt-48 mt-0" >
+          
+        </div>
+        <Archievments />
       </div>
     </>
   )

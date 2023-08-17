@@ -16,7 +16,7 @@ const Welcome = () => {
                 <div className='lg:mt-36 mt-4 lg:w-2/5 w-full h-full z-50'>
                     <div className='lg:absolute z-50 h-1/2 '>
                         <p className='text-2xl font-bold'>
-                            Hey, ✌🏽 I am...️    
+                            Hey, ✌🏽 I am...
                         </p><br />
                         <p className='md:text-[9.2rem] sm:text-[2rem] text-[4.2rem] ml-4 lg:-mt-16 font-extrabold'>
                             Rainsong

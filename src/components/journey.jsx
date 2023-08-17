@@ -16,8 +16,10 @@ const Journey = () => {
                 <div class="absolute z-0 bg-gradient-to-tr from-primary/25 to-dark/10 lg:w-[1120px] w-[200px] h-[400px] blur-3xl -mt-40">
                 </div>
             </h1>
-            <p className='font-bold text-primary text-[1.3rem]'> Challenging but worth it!</p>
+            <p className='font-bold text-primary text-[1.3rem] -mt-4'> Challenging but worth it!</p>
 
+            <div class="absolute z-0 bg-gradient-to-tr from-primary/25 to-dark/10 lg:w-[1120px] w-[200px] h-[400px] blur-3xl mt-12">
+                    </div>
             <div className='rounded border-[3.5px] border-primary mt-9 lg:p-4 lg:px-6 p-3'>
                 <div className='flex lg:flex-row flex-row-reverse flex-wrap-reverse w-auto items-center'>
                     <div className='flex justify-start lg:w-1/2 w-full lg:mt-0 mt-3'>
@@ -29,7 +31,6 @@ const Journey = () => {
                             University of <br />Yaounde 1
                         </div>
                     </div>
-
                     <div className='flex lg:w-1/2 w-full lg:ml-auto mx-auto lg:justify-end justify-center text-black lg:-space-x-12 space-x-0 lg:mb-0 mb-4'>
                         <div className='group w-1/4 rounded-xl text-center space-y-2 boxes-journey bg-primary opacity-20'>
                             <div className='w-full flex justify-center pt-2 pb-0'>
