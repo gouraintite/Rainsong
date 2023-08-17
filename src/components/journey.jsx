@@ -90,7 +90,7 @@ const Journey = () => {
                         <div className='flex my-2 '>
                             <img src={watch} alt="" className='h-6' />
                             <div className='ml-3'>
-                                Yaoundé, Cameroon
+                                Master Computer Science
                             </div>
                         </div>
                         <div className='flex bg-primary/20 backdrop-blur-2xl w-fit lg:mt-20 mb-6 p-3 rounded-xl cursor-pointer transition-all hover:scale-95 duration-200 ease-in-out'>

@@ -31,7 +31,7 @@ const Welcome = () => {
                         </p>
                     </div>
                 </div>
-                <div className='lg:w-1/2 w-2/3 flex justify-center z-0 lg:relative  absolute'>
+                <div className='lg:w-1/2 w-2/3 flex justify-center z-0 lg:relative absolute'>
                     <div className='lg:ml-4 w-full shadow-2xl shadow-primary rounded-full overflow-hidden lg:border-[15px] border-[5px] border-primary '>
                         <img src={me} alt="my picture" className='w-full shadow-xl' />
                     </div>
